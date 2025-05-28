@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "ref": "bolt-card-component",
+      "tags": ["anytime"]
+    },
+    {
+      "ref": "basic-breath-card-component",
+      "tags": ["anytime"]
+    },
+    {
+      "ref": "bellows-card-component",
+      "tags": ["morning", "energise", "upregulate"]
+    },
+    {
+      "ref": "box-breath-card-component",
+      "tags": ["calm", "relax", "vagal tone"]
+    },
+    {
+      "ref": "box-breath-extended-card-component",
+      "tags": ["calm", "relax", "vagal tone"]
+    },
+    {
+      "ref": "triangle-card-component",
+      "tags": ["anytime", "vagal tone", "downregulate"]
+    },
+    {
+      "ref": "physiological-sigh-component",
+      "tags": ["anytime", "quick", "downregulate"]
+    },
+    {
+      "ref": "ocean-card-component",
+      "tags": ["anytime", "vagal tone", "downregulate"]
+    },
+    {
+      "ref": "humming-breath-card-component",
+      "tags": ["anytime", "vagal tone", "downregulate"]
+    },
+    {
+      "ref": "four-eight-card-component",
+      "tags": ["calm", "relax", "downregulate"]
+    },
+    {
+      "ref": "four-7-8-card-component",
+      "tags": ["sleep", "downregulate"]
+    },
+    {
+      "ref": "five-finger-card-component",
+      "tags": ["stress", "relax", "mindfullness"]
+    },
+    {
+      "ref": "diaphragm-card-component",
+      "tags": ["anytime", "vagal tone", "downregulate"]
+    },
+    {
+      "ref": "diaphragmatic-46-card-component",
+      "tags": ["anytime", "vagal tone", "downregulate"]
+    },
+    {
+      "ref": "coherent-card-component",
+      "tags": ["morning", "energise", "upregulate"]
+    },
+
+    {
+      "ref": "fire-card-component",
+      "tags": ["morning", "energise", "upregulate"]
+    },
+    {
+      "ref": "fire-with-chin-lock-card-component",
+      "tags": ["morning", "energise", "upregulate"]
+    },
+    {
+      "ref": "intermitent-hypoxia-card-component",
+      "tags": ["anytime", "calm", "relax"]
+    },
+    {
+      "ref": "alternate-nostril-card-component",
+      "tags": ["anytime", "downregulate"]
+    }
+  ]
+}

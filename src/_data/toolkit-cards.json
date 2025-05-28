@@ -1,0 +1,182 @@
+{
+  "items": [
+    {
+      "title": "Basic Breathing ",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.voluptatum enim dolorem aliquid! Nam",
+      "tags": ["Anxiety", "Panic", "Sadness"],
+      "poster": "",
+      "video": "https://respira-files.s3.eu-west-2.amazonaws.com/saturn.mp4",
+      "instructions": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quas nisi vero veritatis tempore. Maxime eius necessitatibus doloribus, totam officia sunt fugit hic alias iusto ullam fuga dicta, mollitia tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quas nisi vero veritatis tempore. Maxime eius necessitatibus doloribus, totam officia sunt fugit hic alias iusto ullam fuga dicta, mollitia tempora Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio sunt exercitationem enim, consequatur nobis eveniet dicta fugiat praesentium eligendi eos, beatae molestias dolore possimus voluptas dolores sint accusamus minima debitis fuga animi molestiae rerum magnam commodi. Aut quibusdam voluptate tempora possimus totam corporis laudantium consequuntur aperiam. Dolorem nam quas tempora. ipsum dolor, sit amet consectetur adipisicing elit. Distinctio sunt exercitationem enim, consequatur nobis eveniet dicta fugiat praesentium eligendi eos, beatae molestias dolore possimus voluptas dolores sint accusamus minima debitis fuga animi molestiae rerum magnam commodi. Aut quibusdam voluptate tempora possimus totam corporis laudantium consequuntur aperiam. Dolorem nam quas tempora.  "
+    },
+    {
+      "title": "Bolt Test",
+      "tempo1": "2s In ",
+      "tempo2": "3s Hold ",
+      "tempo3": "6s Out ",
+      "tempo4": "-",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      "tags": ["Frustration", "Fear"],
+      "poster": "",
+      "video": "https://respira-files.s3.eu-west-2.amazonaws.com/portrait.mp4"
+    },
+    {
+      "title": "Bellows breath",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Anger", "Sadness"],
+      "poster": "",
+      "video": "https://respira-files.s3.eu-west-2.amazonaws.com/saturn.mp4"
+    },
+    {
+      "title": "Alternate nostril breathing",
+      "tempo1": "1s In ",
+      "tempo2": "1s Out ",
+      "tempo3": "-",
+      "tempo4": "-",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Restlessness", "Frustration"],
+      "poster": "../../images/poster-placeholder.png",
+      "video": "https://respira-files.s3.eu-west-2.amazonaws.com/presenter.mp4"
+    },
+    {
+      "title": "Practice state of NS",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Panic", "Overwhelm"],
+      "poster": "../../images/poster-placeholder.png",
+      "video": "https://respira-files.s3.eu-west-2.amazonaws.com/saturn.mp4"
+    },
+    {
+      "title": "4 - 6 Breath",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Anxiety", "Anger"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "Chin lock. Triangle breaths",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Restlessness", "Frustration"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "Box breathing",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Numbness", "Sadness"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "Physiological sighing",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Panic", "Overwhelm"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "4-7-8 breathing",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Grief", "Frustration"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "Breath of joy",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Grief", "Sadness"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "Intention Setting breathing ",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Anxiety", "Numbness"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "Ocean | Ujjayi breath",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Restlessness"],
+      "poster": "",
+      "video": ""
+    },
+
+    {
+      "title": "4-2-6 breathing",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Overwhelm"],
+      "poster": "",
+      "video": ""
+    },
+    {
+      "title": "5 finger breath",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Frustration", "Fear"],
+      "poster": "",
+      "video": "https://respira-files.s3.eu-west-2.amazonaws.com/saturn.mp4"
+    },
+    {
+      "title": "Wim Hoff - Power breath",
+      "tempo1": "1s In ",
+      "tempo2": "1s Hold ",
+      "tempo3": "4s Out ",
+      "tempo4": "8s In ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio deleniti veritatis beatae officiis voluptatum enim dolorem aliquid! Nam.",
+      "tags": ["Anxiety", "Restlessness"],
+      "poster": "",
+      "video": ""
+    }
+  ]
+}
