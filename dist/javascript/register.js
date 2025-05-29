@@ -1,3 +1,5 @@
 
+console.log("register: WORKS");
+
 //--
-// import './components/basic-timer.mjs';
+// import './components/basic-timer.js';

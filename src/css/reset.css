@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* logical properties */
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* scroll bars */
+/* For Firefox */
+* {
+  scrollbar-gutter: stable both-edges;
+  scrollbar-width: thin;
+  scrollbar-color: red green;
+}
+/* chromium */
+::-webkit-scrollbar-button {
+  background: green;
+}
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: green;
+}
+
+::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: green;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}

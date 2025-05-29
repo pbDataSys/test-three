@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon.ico" />
+    <!--  -->
+    <link rel="stylesheet" href="/css/core.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/design-tokens.css" />
+    <!--  -->
+    <script src="/javascript/register.js" defer type="module"></script>
+    <!--  -->
+    <script src="/javascript/firebase/firebase-config.js" defer type="module"></script>
+    <script src="/javascript/firebase/firebase-auth.js" defer type="module"></script>
+    <script src="/javascript/firebase/firebase-firestore.js" defer type="module"></script>
+
+    <title>{{ title }}</title>
+  </head>
+  <body class="site-width-limiter-1200">
+    {% include "partials/header-partial.html" %} {% block content %}
+    <!-- APP CONTENT HERE -->
+    {% endblock %} {% include "partials/footer-partial.html" %}
+
+    <script src="/javascript/page-scripts/index.js" defer type="module"></script>
+  </body>
+</html>

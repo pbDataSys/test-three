@@ -1,0 +1,204 @@
+:root {
+  /*Base Font Scaling */
+  --font-base: clamp(12px, 2vw, 18px);
+
+  /* Headings */
+  --font-h1: clamp(24px, 5vw, 64px);
+  --font-h2: clamp(20px, 4vw, 48px);
+  --font-h3: clamp(16px, 3vw, 36px);
+  --font-h4: clamp(14px, 2.5vw, 28px);
+  --font-h5: clamp(12px, 2vw, 24px);
+  --font-h6: clamp(10px, 1.5vw, 20px);
+
+  /* Line Heights */
+  --line-height-base: 1.5;
+
+  /* Spacing (Margins & Padding) */
+  --marg-std: clamp(8px, 2vw, 24px);
+  --marg-med: clamp(12px, 3vw, 32px);
+  --marg-lrg: clamp(16px, 4vw, 40px);
+
+  --padd-std: clamp(8px, 2vw, 24px);
+  --padd-med: clamp(12px, 3vw, 32px);
+  --padd-lrg: clamp(16px, 4vw, 40px);
+
+  /* links */
+  --link-color: inherit;
+  --link-hover-color: inherit;
+  --link-dec-none: none;
+  --link-dec-underline: underline;
+
+  /* Image Sizes (Fluid Scaling) */
+  --img-small: clamp(120px, 20vw, 320px);
+  --img-medium: clamp(240px, 30vw, 480px);
+  --img-large: clamp(360px, 40vw, 640px);
+  --img-full: clamp(480px, 60vw, 960px);
+
+  /* Object Fit Defaults */
+  --img-fit-cover: cover;
+  --img-fit-contain: contain;
+
+  /* Border Radius */
+  --radius: clamp(4px, 1vw, 16px);
+
+
+}
+
+/* General Typography */
+body {
+  font-size: var(--font-base);
+  line-height: var(--line-height-base);
+  margin: var(--marg-std);
+  padding: var(--padd-std);
+  font-family: sans-serif;
+  border: 3px solid gold;
+  background-color: #333;
+  color: gold;
+  border-radius: var(--radius);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: var(--marg-std);
+  line-height: calc(var(--font-base) * 1.75);
+}
+
+h1 {
+  font-size: var(--font-h1);
+}
+h2 {
+  font-size: var(--font-h2);
+}
+h3 {
+  font-size: var(--font-h3);
+}
+h4 {
+  font-size: var(--font-h4);
+}
+h5 {
+  font-size: var(--font-h5);
+}
+h6 {
+  font-size: var(--font-h6);
+}
+
+/* Paragraphs */
+p {
+  font-size: var(--font-base);
+  line-height: var(--line-height-base);
+  margin-bottom: var(--marg-med);
+}
+
+/*Content Containers */
+header,
+footer {
+  font-size: calc(var(--font-base) * 1.15); /* Slightly larger */
+  padding: var(--padd-std);
+  margin-bottom: var(--marg-med);
+  border: 3px solid grey;
+}
+menu {
+  min-width: 100%;
+  margin-bottom: var(--marg-lrg);
+}
+menu ul {
+  display: inline-flex;
+  width: 100%;
+  margin: 0rem;
+}
+menu ul li {
+  padding-right: var(--padd-std);
+  font-size: calc(var(--font-base) * 1.25); /* Slightly larger*/
+}
+menu ul li a {
+  margin-bottom: var(--marg-lrg);
+  text-decoration: var(--link-dec-underline);
+  text-underline-offset: 6px;
+  text-decoration-thickness: 8px;
+  text-decoration-color: orange;
+}
+menu ul li a:hover {
+  text-decoration: var(--link-dec-underline);
+  text-underline-offset: 6px;
+  text-decoration-thickness: 8px;
+  text-decoration-color: red;
+}
+article {
+  font-size: var(--font-base);
+  line-height: var(--line-height-base);
+  margin-bottom: var(--marg-med);
+  padding: var(--padd-med);
+  max-width: 80ch;
+}
+
+aside {
+  font-size: calc(var(--font-base) * 0.9); /* Slightly smaller */
+  padding: var(--padd-std);
+  margin-bottom: var(--marg-med);
+}
+
+section {
+  padding: var(--padd-lrg);
+  margin-bottom: var(--marg-lrg);
+}
+
+/* Lists & Blockquotes */
+ul,
+ol {
+  margin-left: var(--marg-std);
+}
+
+blockquote {
+  font-size: var(--font-h3);
+  line-height: var(--line-height-base);
+  margin: var(--marg-med);
+  padding-left: var(--padd-med);
+  border-left: 4px solid #999;
+}
+
+/* Image Container Standard */
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--marg-std) auto;
+    overflow: hidden;
+    border: 2px solid tomato;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: var(--padd-std);
+    object-fit: var(--img-fit-contain);
+    border-radius: var(--radius);
+}
+
+/* Image Specific Sizes */
+.img-small {
+    width: var(--img-small);
+    height: auto;
+}
+
+.img-medium {
+    width: var(--img-medium);
+    height: auto;
+}
+
+.img-large {
+    width: var(--img-large);
+    height: auto;
+}
+
+.img-full {
+    width: var(--img-full);
+    height: auto;
+}
+
+
