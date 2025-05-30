@@ -1,0 +1,15 @@
+{% extends "layouts/helpers/base-helpers-container-layout.html" %} {% block content %} {{ content | safe }}
+<div class="tab-container">
+    <button class="tab-button active" data-tab="tab1">Tab 1</button>
+    <button class="tab-button" data-tab="tab2">Tab 2</button>
+    <button class="tab-button" data-tab="tab3">Tab 3</button>
+</div>
+
+<h1>Help with this project</h1>
+<!-- <div class="tab-content-container">
+  <div id="tab1" class="tab-content active">Content for Tab 1</div>
+  <div id="tab2" class="tab-content">Content for Tab 2</div>
+  <div id="tab3" class="tab-content">Content for Tab 3</div>
+</div> -->
+
+{% endblock %}
