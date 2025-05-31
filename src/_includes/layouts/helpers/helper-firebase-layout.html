@@ -1,0 +1,8 @@
+{% extends "layouts/helpers/base-helpers-container-layout.html" %}
+{% block content %}
+<menu class="tab-container">
+  <a href="/helper-read-me.html" class="tab-button">Read Me</a>
+  <a href="/helper-firebase.html" class="tab-button">Firebase</a>
+</menu>
+<main>{% block helperPages %} fb content here {% endblock %}</main>
+{% endblock %}
