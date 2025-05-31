@@ -1,21 +1,14 @@
-console.log("helpers works");
+
+// Set active class based on current URL
 document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".tab-button");
-  const contents = document.querySelectorAll(".tab-content");
-
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      // Remove active class from all buttons
-      buttons.forEach((btn) => btn.classList.remove("active"));
-
-      // Add active class to clicked button
-      button.classList.add("active");
-
-      // Hide all content divs
-      contents.forEach((content) => content.classList.remove("active"));
-
-      // Show the correct content div
-      document.getElementById(button.dataset.tab).classList.add("active");
+  const helperLinks = document.querySelectorAll(".tab-link");
+  helperLinks.forEach((link) => {
+    if (window.location.pathname === link.getAttribute("href")) {
+      link.classList.add("active");
+    }
+    link.addEventListener("click", () => {
+      helperLinks.forEach((lnk) => lnk.classList.remove("active"));
+      link.classList.add("active");
     });
   });
 });

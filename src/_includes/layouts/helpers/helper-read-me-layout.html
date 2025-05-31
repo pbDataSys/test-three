@@ -1,9 +1,6 @@
 {% extends "layouts/helpers/base-helpers-container-layout.html" %}
 {% block content %}
-<menu class="tab-container">
-  <a href="/helper-read-me.html" class="tab-button">Read Me</a>
-  <a href="/helper-firebase.html" class="tab-button">Firebase</a>
-</menu>
+
 <main>{% block helperPages %} <p>Each tab is a separate HTML page with its own content block.
   The navigation uses normal <a> links, which are fast and cacheable.
   There is no extra client-side JavaScript or AJAX overhead.
