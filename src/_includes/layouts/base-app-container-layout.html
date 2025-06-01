@@ -23,9 +23,9 @@
     <title>{{ title }}</title>
   </head>
   <body class="site-width-limiter-1200">
-    {% include "partials/header-partial.html" %} {% block content %}
+    {% block content %}
     <!-- APP CONTENT HERE -->
-    {% endblock %} {% include "partials/footer-partial.html" %}
+    {% endblock %} 
 
     <script src="/javascript/page-scripts/index.js" defer type="module"></script>
   </body>

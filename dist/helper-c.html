@@ -1,7 +1,37 @@
-{% extends "layouts/helpers/base-helpers-container-layout.html" %}
-{% block content %}
+<!DOCTYPE html>
 
-<main>{% block helperPages %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon.ico" />
+    <!--  -->
+    <link rel="stylesheet" href="/css/helpers.css" />
+    <link rel="stylesheet" href="/css/core.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/design-tokens.css" />
+    <!--  -->
+
+    <!--  -->
+
+    <title>Helper-PWA</title>
+  </head>
+  <body>
+    <menu class="tab-container">
+  <a href="/helper-read-me.html" class="tab-link">Overview</a>
+  <a href="/helper-templates.html" class="tab-link">Templates</a>
+  <a href="/helper-firebase.html" class="tab-link">Firebase</a>
+  <a href="/helper-web-components.html" class="tab-link">Web components</a>
+  <a href="/helper-css.html" class="tab-link">CSS</a>
+  <a href="/helper-pwa.html" class="tab-link">PWA</a>
+</menu>
+ 
+
+<main>
     <h2>CSS</h2>
   <p>Describe CSS file struct and how cascade works  </p>
   <ul>
@@ -36,7 +66,6 @@
       <div class="test-item">:/</div>
       <div class="test-item">:/</div>
     </div>
-    <H3>STACKED GRID [ Without pos:Abs</H3>
     <div class="grid-stacked">
       <div class="layer1">
         <div class="layer1-text"><h1>001</h1></div>
@@ -49,5 +78,8 @@
     </div>
     
     
-    {% endblock %}</main>
-{% endblock %}
+    </main>
+
+    <script src="/javascript/helpers.js"></script>
+  </body>
+</html>

@@ -3,9 +3,9 @@
   --font-base: clamp(12px, 2vw, 18px);
 
   /* Headings */
-  --font-xl: clamp(32px, 6vw, 72px);
-  --font-xxl: clamp(40px, 7vw, 88px);
   --font-xxxl: clamp(48px, 8vw, 104px);
+  --font-xxl: clamp(40px, 7vw, 88px);
+  --font-xl: clamp(32px, 6vw, 72px);
   --font-h1: clamp(24px, 5vw, 64px);
   --font-h2: clamp(20px, 4vw, 48px);
   --font-h3: clamp(16px, 3vw, 36px);
@@ -74,6 +74,21 @@ h5,
 h6 {
   margin-bottom: var(--marg-std);
   line-height: calc(var(--font-base) * 1.75);
+}
+.hxxxl {
+  font-size: var(--font-xxxl);
+  margin-bottom: var(--marg-lrg);
+  line-height: calc(var(--font-base) * 4.5);
+}
+.hxxl {
+  font-size: var(--font-xxl);
+  margin-bottom: var(--marg-std);
+  line-height: calc(var(--font-base) * 4);
+}
+.hxl {
+  font-size: var(--font-xl);
+  margin-bottom: var(--marg-std);
+  line-height: calc(var(--font-base) * 3);
 }
 
 h1 {
@@ -248,11 +263,11 @@ blockquote {
   background: rgba(255, 0, 0, 0.5);
   border: 2px solid #999;
 }
-.layer1-text{
+.layer1-text {
   grid-column: 1/2;
-  max-width: 100px ;
+  max-width: 100px;
   padding: var(--padd-small);
-  
+
   border: 2px solid #111;
 }
 
@@ -267,7 +282,7 @@ blockquote {
   /* border: 2px solid #999; */
 }
 
-.layer2 img{
+.layer2 img {
   width: 300px;
   height: auto;
   /* padding: var(--padd-std); */
@@ -280,7 +295,6 @@ blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 img {
@@ -310,4 +324,13 @@ img {
 .img-full {
   width: var(--img-full);
   height: auto;
+}
+.typography-xxxl {
+  font-size: var(--font-xxxl);
+}
+.typography-xxl {
+  font-size: var(--font-xxl);
+}
+.typography-xl {
+  font-size: var(--font-xl);
 }
